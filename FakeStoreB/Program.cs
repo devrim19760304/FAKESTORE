@@ -53,50 +53,43 @@ app.MapGet("/staff", content =>
 
 
 
-//we create httpClientFactory instance 
-// from body and single postman parameter 12,1 etc 
-app.MapPost("/staff", async (IHttpClientFactory httpClientFactory, [FromBody] int personNumber) =>
 
-{
-    try
-    {
-        var client = httpClientFactory.CreateClient();
-        //since we use async we use now await 
-
-        var response = await client.GetStringAsync($"https://randomuser.me/api/?results={personNumber}");
-        // one way to return json 
-        return Results.Content(response, "application/json");
-    }
-    catch (Exception exp)
-    {
-        return Results.BadRequest(new { error = exp.Message });
-    }
-
-});
-
-// we can also use body as json 
-// from body and single postman parameter 12,1 etc 
 app.MapPost("/staffjson", async (IHttpClientFactory httpClientFactory, [FromBody] PersonRequest personRequest) =>
-
 {
+    if (StaffManager.IsFull)
+    {
+        // Return existing staff wrapped in a "results" key
+        return Results.Json(new { results = StaffManager.GetStaff() });
+    }
+
     try
     {
         var client = httpClientFactory.CreateClient();
-        //since we use async we use now await 
-
-        var response = await client.GetAsync($"https://randomuser.me/api/?results={personRequest.PersonNumber}");
-        //var response=await client.GetStringAsync("https://randomuser.me/api/?results={personRequest.PersonNumber}");
+        var response = await client.GetStringAsync($"https://randomuser.me/api/?results={personRequest.PersonNumber}");
         var data = JsonDocument.Parse(response).RootElement.GetProperty("results");
-        Console.WriteLine(response);
-        // one way to return json 
-        return Results.Content(response, "application/json");
+        var newStaff = data.EnumerateArray().Select((person, index) => new Person
+        {
+            Id = index + 1,
+            FirstName = person.GetProperty("name").GetProperty("first").GetString() ?? "Unknown",
+            LastName = person.GetProperty("name").GetProperty("last").GetString() ?? "Unknown",
+            Email = person.GetProperty("email").GetString() ?? "Unknown",
+            Phone = person.GetProperty("phone").GetString() ?? "Unknown",
+            Location = person.GetProperty("location").GetProperty("city").GetString() ?? "Unknown",
+            PhotoUrl = person.GetProperty("picture").GetProperty("large").GetString() ?? "Unknown"
+        }).ToList();
+
+        StaffManager.AddStaff(newStaff);
+
+        // Return the new staff wrapped in a "results" key
+        return Results.Json(new { results = newStaff });
     }
     catch (Exception exp)
     {
         return Results.BadRequest(new { error = exp.Message });
     }
-
 });
+
+
 
 
 

@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "Hash": "dvR5z4tiqdryPeS6bRduqH3PxhICGvuvveWHmj2f6g8=",
+  "Source": "FakeStoreB",
+  "BasePath": "_content/FakeStoreB",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FakeStoreB\\wwwroot",
+      "Source": "FakeStoreB",
+      "ContentRoot": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\",
+      "BasePath": "_content/FakeStoreB",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\d0ku2vrdk6-45muxfnwta.gz",
+      "SourceId": "FakeStoreB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/FakeStoreB",
+      "RelativePath": "table#[.{fingerprint=45muxfnwta}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\table.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yjqzbxv40j",
+      "Integrity": "0o/FwSJz/krBMyCGcbd0x+rVDDtEemAAubrEF78ZCSY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\table.html"
+    },
+    {
+      "Identity": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\ro8z04n9z8-p8886fgybt.gz",
+      "SourceId": "FakeStoreB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/FakeStoreB",
+      "RelativePath": "index#[.{fingerprint=p8886fgybt}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zd5y1gtfok",
+      "Integrity": "OT8hRCDNP/rvGPIW5xYAcWaDoGfAwoF+Ewp07NZsPGI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\index.html",
+      "SourceId": "FakeStoreB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\",
+      "BasePath": "_content/FakeStoreB",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p8886fgybt",
+      "Integrity": "ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\table.html",
+      "SourceId": "FakeStoreB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\",
+      "BasePath": "_content/FakeStoreB",
+      "RelativePath": "table#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "45muxfnwta",
+      "Integrity": "aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\table.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\ro8z04n9z8-p8886fgybt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001068376068"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OT8hRCDNP/rvGPIW5xYAcWaDoGfAwoF+Ewp07NZsPGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 06:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 06:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\ro8z04n9z8-p8886fgybt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OT8hRCDNP/rvGPIW5xYAcWaDoGfAwoF+Ewp07NZsPGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 06:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OT8hRCDNP/rvGPIW5xYAcWaDoGfAwoF+Ewp07NZsPGI="
+        }
+      ]
+    },
+    {
+      "Route": "index.p8886fgybt.html",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\ro8z04n9z8-p8886fgybt.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001068376068"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OT8hRCDNP/rvGPIW5xYAcWaDoGfAwoF+Ewp07NZsPGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 06:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p8886fgybt"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU="
+        }
+      ]
+    },
+    {
+      "Route": "index.p8886fgybt.html",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 06:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p8886fgybt"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ub1jjMjnqtsynAVTP6VCbLKG52YigZCBS2cEPHAmOaU="
+        }
+      ]
+    },
+    {
+      "Route": "index.p8886fgybt.html.gz",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\ro8z04n9z8-p8886fgybt.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "935"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OT8hRCDNP/rvGPIW5xYAcWaDoGfAwoF+Ewp07NZsPGI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 06:49:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p8886fgybt"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OT8hRCDNP/rvGPIW5xYAcWaDoGfAwoF+Ewp07NZsPGI="
+        }
+      ]
+    },
+    {
+      "Route": "table.45muxfnwta.html",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\d0ku2vrdk6-45muxfnwta.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000692520776"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1443"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0o/FwSJz/krBMyCGcbd0x+rVDDtEemAAubrEF78ZCSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 07:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45muxfnwta"
+        },
+        {
+          "Name": "label",
+          "Value": "table.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg="
+        }
+      ]
+    },
+    {
+      "Route": "table.45muxfnwta.html",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\table.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 07:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45muxfnwta"
+        },
+        {
+          "Name": "label",
+          "Value": "table.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg="
+        }
+      ]
+    },
+    {
+      "Route": "table.45muxfnwta.html.gz",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\d0ku2vrdk6-45muxfnwta.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0o/FwSJz/krBMyCGcbd0x+rVDDtEemAAubrEF78ZCSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 07:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45muxfnwta"
+        },
+        {
+          "Name": "label",
+          "Value": "table.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0o/FwSJz/krBMyCGcbd0x+rVDDtEemAAubrEF78ZCSY="
+        }
+      ]
+    },
+    {
+      "Route": "table.html",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\d0ku2vrdk6-45muxfnwta.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000692520776"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1443"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0o/FwSJz/krBMyCGcbd0x+rVDDtEemAAubrEF78ZCSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 07:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg="
+        }
+      ]
+    },
+    {
+      "Route": "table.html",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\wwwroot\\table.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4178"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 07:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aGfFDWx45GDkd3+5Oj2bInaifsxt6mpOSU+iiCdHdfg="
+        }
+      ]
+    },
+    {
+      "Route": "table.html.gz",
+      "AssetFile": "C:\\Users\\devri\\Desktop\\fakestore\\fakestoreb\\obj\\Debug\\net9.0\\compressed\\d0ku2vrdk6-45muxfnwta.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1443"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0o/FwSJz/krBMyCGcbd0x+rVDDtEemAAubrEF78ZCSY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Jan 2025 07:31:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0o/FwSJz/krBMyCGcbd0x+rVDDtEemAAubrEF78ZCSY="
+        }
+      ]
+    }
+  ]
+}
